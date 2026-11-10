@@ -16,3 +16,5 @@ struct Dataset{
     int Capacity;
     bool IsSortedByID;
 };
+
+bool InitializeDataset(struct Dataset *dataset, int initialCapacity);
